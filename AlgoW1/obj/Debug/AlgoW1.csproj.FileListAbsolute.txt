@@ -4,3 +4,9 @@ C:\Users\nmakhmudova\Desktop\Stanford Algorithms\AlgoW1\AlgoW1\bin\Debug\AlgoW1.
 C:\Users\nmakhmudova\Desktop\Stanford Algorithms\AlgoW1\AlgoW1\obj\Debug\AlgoW1.csprojResolveAssemblyReference.cache
 C:\Users\nmakhmudova\Desktop\Stanford Algorithms\AlgoW1\AlgoW1\obj\Debug\AlgoW1.exe
 C:\Users\nmakhmudova\Desktop\Stanford Algorithms\AlgoW1\AlgoW1\obj\Debug\AlgoW1.pdb
+C:\Users\Nilufar\Documents\GitHub\Stanford Algo\W1\AlgoW1\bin\Debug\AlgoW1.exe.config
+C:\Users\Nilufar\Documents\GitHub\Stanford Algo\W1\AlgoW1\obj\Debug\AlgoW1.exe
+C:\Users\Nilufar\Documents\GitHub\Stanford Algo\W1\AlgoW1\obj\Debug\AlgoW1.pdb
+C:\Users\Nilufar\Documents\GitHub\Stanford Algo\W1\AlgoW1\bin\Debug\AlgoW1.exe
+C:\Users\Nilufar\Documents\GitHub\Stanford Algo\W1\AlgoW1\bin\Debug\AlgoW1.pdb
+C:\Users\Nilufar\Documents\GitHub\Stanford Algo\W1\AlgoW1\obj\Debug\AlgoW1.csprojResolveAssemblyReference.cache

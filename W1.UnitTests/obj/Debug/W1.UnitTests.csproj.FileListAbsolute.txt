@@ -1,0 +1,9 @@
+C:\Users\Nilufar\Documents\GitHub\Stanford Algo\W1\W1.UnitTests\bin\Debug\W1.UnitTests.dll
+C:\Users\Nilufar\Documents\GitHub\Stanford Algo\W1\W1.UnitTests\bin\Debug\W1.UnitTests.pdb
+C:\Users\Nilufar\Documents\GitHub\Stanford Algo\W1\W1.UnitTests\bin\Debug\AlgoW1.exe
+C:\Users\Nilufar\Documents\GitHub\Stanford Algo\W1\W1.UnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Nilufar\Documents\GitHub\Stanford Algo\W1\W1.UnitTests\bin\Debug\AlgoW1.pdb
+C:\Users\Nilufar\Documents\GitHub\Stanford Algo\W1\W1.UnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Nilufar\Documents\GitHub\Stanford Algo\W1\W1.UnitTests\obj\Debug\W1.UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\Nilufar\Documents\GitHub\Stanford Algo\W1\W1.UnitTests\obj\Debug\W1.UnitTests.dll
+C:\Users\Nilufar\Documents\GitHub\Stanford Algo\W1\W1.UnitTests\obj\Debug\W1.UnitTests.pdb
