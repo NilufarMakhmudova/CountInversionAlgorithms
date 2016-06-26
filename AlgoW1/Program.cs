@@ -11,8 +11,7 @@ namespace AlgoW1
     {
         static void Main(string[] args)
         {
-            int[] numbersArray = new int[] { 1, 6, 3, 2, 4, 5 };
-                //ArrayFromFile();
+            int[] numbersArray = ArrayFromFile();
             SortAndCount result = Algorithm.SortAndCountInversion(numbersArray, numbersArray.Length);
             Console.WriteLine(result.numberOfInversion);
             Console.ReadKey();
@@ -21,7 +20,7 @@ namespace AlgoW1
         
         private static int[] ArrayFromFile() {
            
-            string[] fileNumbersInString= File.ReadAllLines(@"C:\Users\nmakhmudova\Desktop\Stanford Algorithms\AlgoW1\IntegerArray.txt");
+            string[] fileNumbersInString= File.ReadAllLines(@"C:\Users\Nilufar\Documents\GitHub\Stanford Algo\W1\IntegerArray.txt");
             int length = fileNumbersInString.Length;
             int[] dataFromFile = new int[length];
             for (int i = 0; i < fileNumbersInString.Length; i++) {

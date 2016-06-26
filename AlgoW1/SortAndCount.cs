@@ -13,7 +13,7 @@ namespace AlgoW1
         {
 
         }
-        public int numberOfInversion { get; set; }
+        public long numberOfInversion { get; set; }
 
         public int[] sortedSubArray { get; set; }
     }

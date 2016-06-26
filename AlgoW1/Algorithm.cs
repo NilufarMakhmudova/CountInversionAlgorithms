@@ -11,7 +11,6 @@ namespace AlgoW1
         public static SortAndCount SortAndCountInversion(int[] numbersArray, int length)
         {
             if (length == 0) return null;
-            //return new SortAndCount() { numberOfInversion = 0, sortedSubArray = new int[1] };
             else if (length == 1)
             {
                 return new SortAndCount() { sortedSubArray = numbersArray, numberOfInversion = 0 };
@@ -44,39 +43,34 @@ namespace AlgoW1
             for (int i = 0; i < totalInts;)
             {
 
-                if (firstIndex + 1 <= firstArray.sortedSubArray.Length && firstArray.sortedSubArray[firstIndex] < secondArray.sortedSubArray[secondIndex])
-                {
-
-                    result.sortedSubArray[mergedArrayIndex] = firstArray.sortedSubArray[firstIndex];
-                    if (firstIndex + 1 < firstLength) firstIndex++;
-                    mergedArrayIndex++;
-                    //if (firstIndex+1 > firstArray.sortedSubArray.Length) {
-                    //    Array.Copy(secondArray.sortedSubArray, secondIndex, result.sortedSubArray, mergedArrayIndex, secondArray.sortedSubArray.Length - secondIndex - 1);
-                    //    return result; 
-                    //};
-                }
-
-                else
-                {
-                    //not sorted
-                    result.sortedSubArray[mergedArrayIndex] = secondArray.sortedSubArray[secondIndex];
-                    //think before incrementing
-                    if (firstIndex != firstLength)
+                if (firstIndex + 1 <= firstArray.sortedSubArray.Length) {
+                    if (secondIndex + 1 <= secondArray.sortedSubArray.Length) {
+                        if (firstArray.sortedSubArray[firstIndex] < secondArray.sortedSubArray[secondIndex])
+                        {
+                            result.sortedSubArray[mergedArrayIndex] = firstArray.sortedSubArray[firstIndex];
+                            firstIndex++;
+                            mergedArrayIndex++;
+                        }
+                        else {
+                            result.sortedSubArray[mergedArrayIndex] = secondArray.sortedSubArray[secondIndex];
+                            result.numberOfInversion += (firstLength - firstIndex);
+                            secondIndex++;
+                            mergedArrayIndex++;
+                        } }
+                    else
                     {
-                        result.numberOfInversion += (firstLength - firstIndex);
-
-
+                        result.sortedSubArray[mergedArrayIndex] = firstArray.sortedSubArray[firstIndex];
+                        firstIndex++;
+                        mergedArrayIndex++;
                     }
-                    if (secondIndex + 1 < secondLength) secondIndex++;
+                }
+                else {
+                    result.sortedSubArray[mergedArrayIndex] = secondArray.sortedSubArray[secondIndex];
+                    secondIndex++;
                     mergedArrayIndex++;
-                    //if (secondIndex + 1 > secondArray.sortedSubArray.Length)
-                    //{
-                    //    Array.Copy(firstArray.sortedSubArray, firstIndex, result.sortedSubArray, mergedArrayIndex, firstArray.sortedSubArray.Length - firstIndex - 1);
-                    //    return result;
-                    //}
 
                 }
-                //need to check for empty array to terminate
+                        
                 i++;
             }
 
